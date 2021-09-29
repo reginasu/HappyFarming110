@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:background="@color/background"
+    android:elevation="1dp"
+    android:orientation="vertical"
+    android:padding="@dimen/p005">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/p140"
+            android:layout_height="98dp"
+            android:background="@color/Gray"
+            android:contentDescription="@string/q0512_img"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/nopic1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/p005"
+                android:text="@string/q0512_name"
+                android:textColor="@color/big_button_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/ContactTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/p005"
+                android:layout_marginTop="3dp"
+                android:text="@string/q0512_ContactTel"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/ProduceOrg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/p005"
+                android:layout_marginTop="3dp"
+                android:text="@string/q0512_ProduceOrg"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/SalePlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/p005"
+                android:layout_marginTop="3dp"
+                android:text="@string/q0512_SalePlace"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Content"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="@string/q0512_descr"
+        android:visibility="gone" />
+
+</LinearLayout>

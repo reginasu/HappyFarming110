@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/li00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="@dimen/p005">
+
+    <LinearLayout
+        android:id="@+id/li01"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/Silver"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/p040"
+            android:background="@color/big_button">
+
+            <TextView
+                android:id="@+id/q0514_name"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:text="@string/q0514_name"
+                android:textColor="@color/big_button_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/q0514_b001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_default_small"
+                android:text="@string/q0514_b001"
+                android:textColor="@color/second_title_text"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/q0514_b002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_default_small"
+                android:text="@string/q0514_b002"
+                android:textColor="@color/big_button_text"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/q0514_descr"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/big_button"
+            android:fadeScrollbars="false"
+            android:maxLines="6"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:text="@string/q0514_descr"
+            android:textColor="#00796B"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/u_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/p010"
+        android:background="@color/White"
+        android:gravity="center"
+        android:text="@string/q0514_loading"
+        android:textColor="@color/big_button_text"
+        android:textSize="18sp" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/laySwipe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/p010"
+        android:layout_weight="1"
+        android:background="@color/test_background">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/q0514_ncount"
+            android:textColor="@color/blue_sapphire"
+            android:textSize="14sp" />
+
+    </TableRow>
+
+</LinearLayout>

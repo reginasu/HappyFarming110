@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/q0100_m001"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/q0100_m001" />-->
+    <item
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="@string/select"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/q0100_m003"
+                android:icon="@drawable/m003"
+                android:orderInCategory="100"
+                android:title="@string/q0100_m003" />
+            <item
+                android:id="@+id/q0100_m004"
+                android:icon="@drawable/m004"
+                android:orderInCategory="200"
+                android:title="@string/q0100_m004" />
+            <item
+                android:id="@+id/q0100_m005"
+                android:icon="@drawable/m005"
+                android:orderInCategory="300"
+                android:title="@string/q0100_m005" />
+            <item
+                android:id="@+id/q0100_m006"
+                android:icon="@drawable/m006"
+                android:orderInCategory="400"
+                android:title="@string/q0100_m006" />
+            <item
+                android:id="@+id/q0100_m002"
+                android:icon="@drawable/hf_s_30"
+                android:orderInCategory="800"
+                android:title="@string/q0100_m002" />
+            <item
+                android:id="@+id/q0100_action_settings"
+                android:icon="@android:drawable/ic_delete"
+                android:orderInCategory="999"
+                android:title="@string/action_settings" />
+        </menu>
+    </item>
+
+</menu>

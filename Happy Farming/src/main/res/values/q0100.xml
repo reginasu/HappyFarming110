@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    開機動畫-->
+    <string name="q0101_t001">樂農農  [Enter]</string>
+<!--首頁-->
+    <!--    ImageButton-->
+    <string name="q0100_b001">樂農農 Happy Farming</string>
+    <string name="q0100_b002">戶外教育休閒農場</string>
+    <string name="q0100_b003">全國休閒農業區資訊</string>
+    <string name="q0100_b004">農村地方美食</string>
+    <string name="q0100_b006">農遊伴手禮</string>
+    <!--TextView-->
+    <string name="q0100_t001">公告</string>
+
+    <!--天氣API-->
+    <string name="q0100_btn_getweather">取得當地天氣狀態</string>
+    <string name="q0100_country">"地區："</string>
+    <string name="q0100_Temperature">溫度：</string>
+    <string name="q0100_Temperature_Min">最低溫度(Min)：</string>
+    <string name="q0100_Temperature_Max">最高溫度(Max)：</string>
+    <string name="q0100_Humidity">"濕度："</string>
+    <string name="q0100_Pressure">"氣壓："</string>
+    <string name="q0100_areaname">英文地名：</string>
+    <string name="q0100_weather_name">[現在位置]</string>
+    <string name="q0100_w_description">描述：</string>
+    <string name="q0100_w_icon">圖示網址：</string>
+    <string name="q0100_img_des">天氣圖片</string>
+    <string name="q0100_showpic">網路圖片：</string>
+    <string name="q0100_weather_lon">緯度：</string>
+    <string name="q0100_weather_lat">經度：</string>
+    <string name="q0100_dialog_msg1">連線中</string>
+
+<!--    Menu-->
+    <string name="q0100_m001">會員登入</string>
+    <string name="q0100_m002">關於我們</string>
+    <string name="q0100_m003">休閒農業園區</string>
+    <string name="q0100_m004">農村地方美食</string>
+    <string name="q0100_m005">農遊伴手禮</string>
+    <string name="q0100_m006">教育休閒農場</string>
+    <string name="q0100_menu_about">樂農農 Happy Farming</string>
+    <string name="q0100_menu_message">蒐集台灣農業的五感體驗資訊\n吃喝玩樂一齊GO!!</string>
+    <string name="q0100_menu_ok">確定</string>
+
+    <string name="select">選擇</string>
+</resources>

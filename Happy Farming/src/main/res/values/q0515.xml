@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="q0515_descr">說明:</string>
+    <string name="q0515_t001">選擇:</string>
+    <string name="q0515_name">名稱:</string>
+    <string name="q0515_SalePlace">地址:</string>
+    <string name="q0515_ProduceOrg">網址:</string>
+    <string name="q0515_ContactTel">電話:</string>
+    <string name="q0515_Facebook">Facebook:</string>
+    <string name="q0515_b001">去導航</string>
+    <string name="q0515_b002">打電話</string>
+    <string name="q0515_b003">拜訪網站</string>
+    <string name="q0515_b004">FB粉絲團</string>
+
+<!--    <string name="q0515_img">圖片</string>-->
+    <string name="q0515_opendata">匯入opendata</string>
+    <string name="q0515_title">請稍等</string>
+    <string name="q0515_message">執行中...</string>
+    <string name="q0515_ncount">共計:</string>
+    <string name="q0515_loading">數據載入中......</string>
+    <string name="q0515_Zipcode">郵遞區號:</string>
+    <string name="q0515_menu_top">跳到首筆</string>
+    <string name="q0515_menu_end">跳到尾筆</string>
+    <string name="q0515_loadover">重新載入完成</string>
+    <string name="q0515_menu_next">+100</string>
+    <string name="q0515_menu_back">-100</string>
+</resources>

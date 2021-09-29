@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="q0512_descr">說明:</string>
+    <string name="q0512_t001">選擇:</string>
+    <string name="q0512_name">名稱:</string>
+    <string name="q0512_SalePlace">地址:</string>
+    <string name="q0512_ProduceOrg">坐標:</string>
+    <string name="q0512_ContactTel">電話:</string>
+    <string name="q0512_b001">去導航</string>
+    <string name="q0512_b002">打電話</string>
+
+    <string name="q0512_img">圖片</string>
+    <string name="q0512_opendata">匯入opendata</string>
+    <string name="q0512_title">請稍等</string>
+    <string name="q0512_message">執行中...</string>
+    <string name="q0512_ncount">共計:</string>
+    <string name="q0512_loading">數據載入中......</string>
+    <string name="q0512_Zipcode">郵遞區號:</string>
+    <string name="q0512_menu_top">跳到首筆</string>
+    <string name="q0512_menu_end">跳到尾筆</string>
+    <string name="q0512_loadover">重新載入完成</string>
+    <string name="q0512_menu_next">+100</string>
+    <string name="q0512_menu_back">-100</string>
+</resources>
